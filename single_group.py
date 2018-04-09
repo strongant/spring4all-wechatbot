@@ -41,7 +41,7 @@ bot = Bot('bot.pkl', console_qr=console_qr)
 
 target_group = bot.groups().search(group_name)[0]
 
-log.info("target_group : " + target_group)
+log.info(target_group)
 
 '''
 邀请消息处理
