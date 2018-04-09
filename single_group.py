@@ -1,5 +1,13 @@
 #!/usr/bin/env python3
 # coding: utf-8
+import logging
+import logging.config
+
+logging.config.fileConfig('logconfig.ini')
+
+log = logging.getLogger('single_group')
+
+
 """
 功能说明：
 1. 用户无需发送关键词，添加好友后，自动发送邀请消息
@@ -32,6 +40,8 @@ console_qr=(False if platform.system() == 'Windows' else True)
 bot = Bot('bot.pkl', console_qr=console_qr)
 
 target_group = bot.groups().search(group_name)[0]
+
+log.info("target_group : " + target_group)
 
 '''
 邀请消息处理
