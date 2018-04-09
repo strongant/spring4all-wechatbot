@@ -79,4 +79,4 @@ def welcome(msg):
     if name:
         return welcome_text.format(name)
 
-embed()
+bot.join()
