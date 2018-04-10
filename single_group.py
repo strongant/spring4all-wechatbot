@@ -11,8 +11,14 @@
 定义区，下方数据修改为你自己对应的内容
 """
 # 欢迎语，{} 会变成新入群用户的昵称
-welcome_text = '''🎉 欢迎 @{} 的加入！
-😃 有问题请私聊 @ Spring For All
+welcome_text = '''🎉 欢迎 @{} 加入社区纯技术交流群。
+提问为了更好的描述，尤其长代码，长错误日志，
+请上 Spring For All 社区（spring4all.com），
+社区有技术专家问答。
+😃 更多请关注Spring For All 社区公号  
+https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU0MDEwMjgwNA==&scene=124&#wechat_redirect，
+为了更好的学习环境，您可以将此链接转发到朋友圈，学习的路上不孤单！
+谢谢~
 '''
 
 # 回复语，在发送群邀请后会回复这个
