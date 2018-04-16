@@ -27,7 +27,7 @@ reply_text = """你好，欢迎加入我们 Spring4all 社区群
 """
 
 # 群名
-group_name = 'Spring For All 社区 ⑤'
+group_name = 'Spring For All 社区 ⑥'
 
 """
 代码区，下方的内容不要修改
